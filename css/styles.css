@@ -4,7 +4,30 @@
 rel="stylesheet">
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
-
-.web{
+.web {
     color: #2196F3;
 }
+.button {
+    background-color: #F5F4FA;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    line-height: 1.6;
+  }
+  .button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    .onebutton > .button {
+        font-weight: 700;
+        line-height: 1.87;
+      }
