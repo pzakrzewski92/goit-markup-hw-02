@@ -24,6 +24,16 @@ header
 .menu li :hoover{
     color: #2196F3;
 }
+.contacts {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
 
 body { font-family: "Roboto", "Raleway", sans-serif;
 color: #212121;
@@ -70,6 +80,6 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 
-footer
-.web {
+
+span {
     color: #2196F3;}
