@@ -12,6 +12,9 @@ header
 .web {
     color: #2196F3;
 }
+.link:hover {
+    color: tomato;
+  }
 .menu{
     list-style-type: none;
     color: #212121;
@@ -69,7 +72,7 @@ left: 215px;
 top: 262px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;}
-.text-bold {
+.figure> h3 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -80,6 +83,6 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 
-
-span {
+<footer>
+.web-footer {
     color: #2196F3;}
