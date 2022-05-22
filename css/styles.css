@@ -9,11 +9,24 @@ css:
   --brand-color: #3F51B5;
 }
 header
-.webstudio> .web {
+.web {
     color: #2196F3;
 }
-body {
+.menu{
+    list-style-type: none;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+}
+.menu li {
+    padding: 10px 10px;
+}
+.menu li :hoover{
+    color: #2196F3;
+}
 
+body { font-family: "Roboto", "Raleway", sans-serif;
+color: #212121;
 }
 .button {
     background-color: #F5F4FA;
@@ -40,10 +53,23 @@ body {
         line-height: 1.87;
       }
 .figure {
-position: absolute;
 width: 370px;
 height: 404px;
 left: 215px;
 top: 262px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;}
+.text-bold {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+footer
+.web {
+    color: #2196F3;}
