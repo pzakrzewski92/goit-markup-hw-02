@@ -13,9 +13,14 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121; }
-.menu item :hoover{
+    color: #212121; 
+    }
+.menu .item {
+    text-decoration: none;
+}
+.menu .item :hover{
     color: #2196F3;}
+.menu .item :focus {color: #2196F3;}
 .contact {
     font-family: 'Roboto';
 font-style: normal;
