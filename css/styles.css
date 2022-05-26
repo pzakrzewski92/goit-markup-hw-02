@@ -27,10 +27,10 @@ header {
     display: inline-block;
     padding: 10px;
 }
-.menu> li {
+.menu > li {
     padding: 10px 10px;
 }
-.menu> li :hoover{
+.menu > li :hoover{
     color: #2196F3;
 }
 .contacts {
