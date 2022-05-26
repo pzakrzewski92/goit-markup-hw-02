@@ -1,4 +1,4 @@
-header {
+.header {
     background: #FFFFFF;}
 .webstudio{
     text-decoration: none;
@@ -7,24 +7,13 @@ header {
     color: #2196F3;}
 /* nav*/
 .menu {
-    justify-content: center;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
-}
-.item{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;}
+    color: #212121; }
 .menu item :hoover{
     color: #2196F3;}
 .contact {
@@ -34,7 +23,9 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #757575;}
+color: #757575;
+text-decoration: none;
+}
 
 body { font-family: "Roboto", "Raleway", sans-serif;
 color: #212121;}
