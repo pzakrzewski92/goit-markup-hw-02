@@ -13,6 +13,7 @@ header {
 }
 .webstudio{
     text-decoration: none;
+    color: #212121;
 }
 .web {
     color: #2196F3;
@@ -21,18 +22,21 @@ header {
     color: tomato;
   }
 .menu{
-    list-style-type: none;
-    color: #212121;
-    display: flex;
     justify-content: center;
 }
-.menu li {
+.li{
+    color: #212121;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.menu> li {
     padding: 10px 10px;
 }
-.menu li :hoover{
+.menu> li :hoover{
     color: #2196F3;
 }
-.contact {
+.contacts {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -69,8 +73,8 @@ color: #212121;
         font-weight: 700;
         line-height: 1.87;
       }
-.figures{
-    list-style-type: none;
+.figures {
+    
 }
 .figure {
 width: 370px;
@@ -79,6 +83,7 @@ left: 215px;
 top: 262px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
+list-style-type: none;
 }
 .figure> h3 {
     font-family: 'Roboto';
@@ -101,16 +106,25 @@ color: #212121;
     color: #757575;
 }
 .footer {
+    font-style: normal;
+    background-color: #2f303a;
+    color: #fff;
+    padding: 60px 0;}
+    /* identical to box height */
+.footer-logo {
+    display: inline-block;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 29px;
     /* identical to box height */
     
     letter-spacing: 0.03em;
-    
-    color: #2196F3;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 20px; 
+}
 }
 .footer> span {
     font-family: 'Raleway';
