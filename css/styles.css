@@ -66,6 +66,9 @@ color: #212121;
         font-weight: 700;
         line-height: 1.87;
       }
+.figures{
+    list-style-type: none;
+}
 .figure {
 width: 370px;
 height: 404px;
