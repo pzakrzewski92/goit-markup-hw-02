@@ -5,8 +5,18 @@ header {
     color: #212121;}
 .web {
     color: #2196F3;}
-.menu{
-    justify-content: center;}
+/* nav*/
+.menu {
+    justify-content: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
 .item{
     font-family: 'Roboto';
     font-style: normal;
@@ -15,7 +25,7 @@ header {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;}
-.menu > item :hoover{
+.menu item :hoover{
     color: #2196F3;}
 .contact {
     font-family: 'Roboto';
