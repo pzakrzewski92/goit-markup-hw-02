@@ -1,9 +1,7 @@
 
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
-css:
-:root {
-  --brand-color: #3F51B5;
+
 }
 header {
     background: #FFFFFF;
@@ -15,25 +13,27 @@ header {
 .web {
     color: #2196F3;
 }
-.link:hover {
-    color: tomato;
-  }
+
 .menu{
     justify-content: center;
 }
 .item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
     color: #212121;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
 }
-.menu > item {
-    padding: 10px 10px;
+.menu > item2 {
+    color: #2196F3;
 }
 .menu > item :hoover{
     color: #2196F3;
 }
-.contacts {
+.contact {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -71,9 +71,9 @@ color: #212121;
         line-height: 1.87;
       }
 .figures {
-    list-style: none;
+list-style-type: none;
 }
-.figure {
+.figure { list-style: none;
 width: 370px;
 height: 404px;
 left: 215px;
@@ -108,16 +108,15 @@ color: #212121;
     padding: 60px 0;
     text-decoration: none;
     }
-.footer > .footer-logo {
-    
-    color: #212121;
+.footerlogo {
+    color: #fff;
+    text-decoration: none;
 }
-
 .footer-logo > span {
 color: #2196F3;
 }
 
-.footer-text{
+.footertext{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -126,7 +125,7 @@ color: #2196F3;
     /* or 171% */
     letter-spacing: 0.03em;
     color: #FFFFFF;}
-.footer-link {
+.footerlink {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -137,7 +136,7 @@ color: #2196F3;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link: hover,
-.footer-link: focus {
+.footerlink: hover,
+.footerlink: focus {
 color: rgba(255, 255, 255, 1);
 }
