@@ -74,7 +74,7 @@ color: #212121;
         line-height: 1.87;
       }
 .figures {
-    
+    list-style-type: none;
 }
 .figure {
 width: 370px;
@@ -125,7 +125,6 @@ color: #212121;
     color: #fff;
     margin-bottom: 20px; 
 }
-}
 .footer> span {
     font-family: 'Raleway';
 font-style: normal;
@@ -136,7 +135,7 @@ line-height: 31px;
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;}
-.address{
+.footer-text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -144,5 +143,12 @@ text-decoration: none;}
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #FFFFFF;}
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link: hover,
+.footer-link: focus {
+color: rgba(255, 255, 255, 1);
 }
