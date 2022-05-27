@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webstudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet"/>
+      <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
@@ -12,43 +17,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
       <link rel="stylesheet" href="css/styles.css">
-<header class="header">
-    <a class="webstudio" href="index.html"><h1><span class="web">Web</span>studio</h1></a>
-<nav>
+      <header class="header">
+        <a class="webstudio" href="index.html"><h1><span class="web">Web</span>studio</h1></a>
+        <nav>
         <ul class="menu">
-            <li class="item"><a href="">Agencja</a></li>
-            <li class="item"><a href="portfolio.html">Portfolio</a></li>
-            <li class="item"><a href="">Kontakty</a></li>
+            <li><a class="item" href="">Agencja</a></li>
+            <li><a class="item" href="portfolio.html">Portfolio</a></li>
+            <li><a class="item" href="">Kontakty</a></li>
         </ul>
-</nav>
-<div>
-<a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-<a href="tel:+48111111111">+48 111 111 111</a>
-</div>
+        </nav>
+        <div class="contacts">
+        <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+        </div>
 </header>
 <main>
     <section>
 <h2>Efektywne rozwiązania dla Waszego bisnesu</h2>
-<button type="button">Zamów usługę</button>
+<button type="button" class="button-index">Zamów usługę</button>
     </section>
 <section>
-<ul>
+<ul class="list">
     <h2>Lorem ipsum</h2>
-    <li>
+    <li class="list-item">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
     Interdum et malesuada</p>
     </li>
-    <li>
+    <li class="list-item">
     <h2>Lorem ipsum</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
     Interdum et malesuada</p>
     </li>
-    <li>
+    <li class="list-item">
     <h2>Lorem ipsum</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
     Interdum et malesuada </p>
     </li>
-    <li>
+    <li class="list-item">
     <h2>Lorem ipsum</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
     Interdum et malesuada </p>
@@ -90,11 +95,21 @@
         </ul>
       </section>
 </main>
-<footer>
-    <a href="text"><h3>Webstudio</h3></a>
-<address> m. Warszawa, Aleje Jerozolimskie 21</address>    
-    <a href="mailto:info@example.com">info@example.com</a>
-    <a href="tel:+48111111111"> +48 111 111 111</a>
-</footer>
+<footer class="footer">
+    <a class="footer-logo" href="index.html"><h3><span>Web</span>studio</h3></a>
+    <address>
+      <ul>
+        <li class="footer-text">Warszawa, Aleje Jerozolimskie 21
+      </li>
+      <li class="footer-text-link">
+      <a class="footer-link" href="mailto:info@example.com">info@example.com</a>
+      </li>
+      <li class="footer-text">
+      <a class="footer-link" href="tel:+48111111111"> +48 111 111 111</a>
+      </li>
+      </ul>
+  </address>
+  </div>
+  </footer>
 </body>
 </html>

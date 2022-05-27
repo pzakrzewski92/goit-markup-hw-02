@@ -58,6 +58,36 @@ color: #212121;}
     .onebutton > .button {
         font-weight: 700;
         line-height: 1.87;}
+        .button-index {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #FFFFFF;;
+            background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 0px;
+        }
+        .list {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-decoration: none;
+            color: #212121;
+        }
+        .list-item {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+            letter-spacing: 0.03em;
+            color: #757575;
+        }
 .figures {
 list-style-type: none;}
 .figure { list-style: none;
