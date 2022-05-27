@@ -13,10 +13,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
-color: #212121; 
+color: #212121;
+list-style: none;
     } 
 .menu .item {
-    text-decoration: none;
+text-decoration: none;
+color #212121
 }
 .menu .item :hover{
     color: #2196F3;}
