@@ -142,6 +142,9 @@ border-radius: 0px;
             letter-spacing: 0.03em;
             color: #757575;
         }
+        .team {
+            background: #F5F4FA;
+        }
 .figures {
 list-style-type: none;}
 .figure { list-style: none;
@@ -175,6 +178,13 @@ color: #212121;}
     color: #fff;
     padding: 60px 0;
     text-decoration: none;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
     }
 .footer-logo {
     color: #fff;
