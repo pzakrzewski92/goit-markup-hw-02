@@ -5,7 +5,15 @@
     background: #FFFFFF;}
 .webstudio{
     text-decoration: none;
-    color: #212121;}
+    color: #212121;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+}
 .web {
     color: #2196F3;}
 /* nav*/
@@ -22,7 +30,7 @@ list-style: none;
 text-decoration: none;
 color:#212121;
 }
-.menu .item :hover{
+.menu .item:hover{
     color: #2196F3;}
 .menu .item :focus {color: #2196F3;}
 .contact {
