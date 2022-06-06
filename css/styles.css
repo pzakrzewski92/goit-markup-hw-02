@@ -30,9 +30,9 @@ list-style: none;
 text-decoration: none;
 color:#212121;
 }
-.menu .item:hover{
+.menu .item:hover, .contact:hover {
     color: #2196F3;}
-.menu .item :focus {color: #2196F3;}
+.menu .item:focus {color: #2196F3;}
 .contact {
     font-family: 'Roboto';
 font-style: normal;
@@ -71,6 +71,7 @@ cursor: pointer;
     list-style: none;
 }
 .button {
+    
     background-color: #F5F4FA;
     color: #212121;
     font-size: 16px;
@@ -145,16 +146,16 @@ border-radius: 0px;
         .team {
             background: #F5F4FA;
         }
-.figures {
+.portfolio-list {
 list-style-type: none;}
-.figure { list-style: none;
+.portfolio-list-item { list-style: none;
 width: 370px;
 height: 404px;
 left: 215px;
 top: 262px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;}
-.figure > h3 {
+.portfolio-list-item > h3 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -163,7 +164,7 @@ line-height: 36px;
 /* identical to box height, or 200% */
 letter-spacing: 0.06em;
 color: #212121;}
-.figure > p{
+.portfolio-list-item > p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
